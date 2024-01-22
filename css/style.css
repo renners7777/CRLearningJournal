@@ -8,6 +8,8 @@ body {
     padding: 0;
 }
 
+/* navbar */
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -18,6 +20,10 @@ ul {
     display: flex;
     gap: 1em;
     margin-right: 1em;
+}
+
+li {
+    list-style-type: none;
 }
 
 .navbar p {

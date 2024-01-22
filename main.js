@@ -1,0 +1,1 @@
+import journalData  from "./JournalData";
