@@ -13,7 +13,17 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar img {
+    margin: 0 1em;
+}
+
+.navbar-title {
+    display: flex;
     align-items: center;
 }
 
