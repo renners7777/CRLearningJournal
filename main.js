@@ -1,4 +1,5 @@
 function displayArticles() {
+    if(window.innerWidth <= 550px) {
     let hiddenArticles = document.getElementById("hidden-articles")
     let elBtn = document.querySelector(".btn")
     if (hiddenArticles.style.display === "none") {
@@ -8,4 +9,5 @@ function displayArticles() {
     hiddenArticles.style.display = "none"
     elBtn.textContent = "View More"
     }
+}
 }

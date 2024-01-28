@@ -63,7 +63,7 @@ a:active {
 /* hero section */
 
 .hero {
-    background-image: url("../Assets/Images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg");
+    background-image: url("../Assets/Images/nate-grant-QQ9LainS6tI-unsplash.jpg");
     background-size: cover; 
     background-position: center;
     color: whitesmoke;
@@ -119,9 +119,7 @@ footer span {
 
 @media (min-width: 550px) {
     #articles {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, auto);
+        display: flex;
     }
 
     .btn {
