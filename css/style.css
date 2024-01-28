@@ -63,17 +63,22 @@ a:active {
 /* hero section */
 
 .hero {
-    background-image: url("Assets/Images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg");
+    background-image: url("../Assets/Images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg");
     background-size: cover; 
     background-position: center;
+    color: whitesmoke;
     padding: 2.5em;
     line-height: 1.5;
 }
 
 /* Articles Section */
 
-main {
+#articles {
     margin: 1em;
+}
+
+#articles img {
+    width: 100%;
 }
 
 .article {
