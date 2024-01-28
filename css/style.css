@@ -74,6 +74,7 @@ a:active {
 /* Articles Section */
 
 #articles {
+    display: block;
     margin: 1em;
 }
 
@@ -114,4 +115,16 @@ footer p {
 footer span {
     font-size: 0.5em;
     margin-bottom: 1.5em;
+}
+
+@media (min-width: 550px) {
+    #articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .btn {
+        display: none;
+    }
 }

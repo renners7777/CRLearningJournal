@@ -3,9 +3,9 @@ function displayArticles() {
     let elBtn = document.querySelector(".btn")
     if (hiddenArticles.style.display === "none") {
     hiddenArticles.style.display = "block"
-    elBtn.textContent = "View less"
+    elBtn.textContent = "View Less"
     } else {
     hiddenArticles.style.display = "none"
-    elBtn.textContent = "View more"
+    elBtn.textContent = "View More"
     }
 }
